@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Elija Maria Vida">
     <title>Elija Maria Vida's CV</title>
-    <style>
+    <!-- <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.5;
@@ -69,10 +69,13 @@
             color: gray;
             margin-top: 20px;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <header>
+        <div class="profile-picture">
+            <img src="assets/profile.jpg" alt="Profile Picture" width="150">
+        </div>
         <h1>Elija Maria Vida</h1>
         <p>
             <span>Rotbuchstrasse 77, 8037 Zurich</span> | 
@@ -83,6 +86,7 @@
         </p>
     </header>
     
+    <!-- Education -->
     <section>
         <h2>Education</h2>
         <div class="entry">
@@ -120,7 +124,8 @@
             </ul>
         </div>
     </section>
-    
+
+    <!-- Experience in Industry -->
     <section>
         <h2>Experience in Industry</h2>
         <div class="entry">
@@ -151,6 +156,71 @@
         </div>
     </section>
     
+    <!-- Experience in Academia -->
+    <section>
+        <h2>Experience in Academia</h2>
+        <div class="entry">
+            <h3>Chair of Integrated Digital Systems and Circuit Design, RWTH Aachen</h3>
+            <p class="meta">Student Assistant in Software Engineering | Aachen, Germany | Dec 2023 – June 2024</p>
+            <ul>
+                <li>Developed and tested an improved version of the neuroAIx framework's probing algorithm for FPGA cluster size detection.</li>
+                <li>Optimized run-time using parallelization techniques, achieving significant performance gains.</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <h3>Advanced Interactive Technologies (AIT) Lab, ETH Zurich</h3>
+            <p class="meta">Student Research Assistant | Zurich, Switzerland | June 2020 – July 2021</p>
+            <ul>
+                <li>Analyzed keystroke dynamics data from the world's largest typing study to improve decision thresholds for classification algorithms.</li>
+                <li>Implemented Kernel Density Estimations and Gaussian Mixture Models (GMMs) for more precise classifications.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
+        <div class="entry">
+            <h3>DPPRAM (Master Thesis)</h3>
+            <ul>
+                <li>Developed a novel spiking neural network (SNN) architecture using active dendritic neurons for time-series classification.</li>
+                <li>Benchmarked on Spiking Heidelberg Digits (SHD) and MIT-BIH Heartbeat Arrhythmia datasets.</li>
+                <li>Tools: Python, PyTorch, JAX, Wandb</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <h3>NoisyNeuroSIM</h3>
+            <ul>
+                <li>Investigated noise effects on crossbar-based analog Compute-In-Memory (CIM) architectures using NeuroSIM on HPC clusters.</li>
+                <li>Tools: C++, Python</li>
+            </ul>
+        </div>
+        <!-- Add other projects similarly -->
+    </section>
+
+    <!-- Publication Contributions -->
+    <section>
+        <h2>Publication Contributions</h2>
+        <div class="entry">
+            <h3>Centralized Model Predictive Control for Transient Frequency Control in Islanded Inverter-Based Microgrids</h3>
+            <p>IEEE Transactions on Power Systems, May 2023</p>
+        </div>
+        <div class="entry">
+            <h3>Typing Behavior is About More than Speed: Users' Strategies for Choosing Word Suggestions Despite Slower Typing Rates</h3>
+            <p>Proc. ACM Hum.-Comput. Interact., Sept 2023</p>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <h2>Certifications and Skills</h2>
+        <ul>
+            <li><b>Programming Languages:</b> Python, C++, Java, MATLAB, VHDL, Verilog</li>
+            <li><b>Tools:</b> TensorFlow, PyTorch, JAX, NumPy, Pandas, Scikit-Learn, Git, Docker</li>
+            <li><b>Languages:</b> German (Native), English (C2), French (C1), Russian (A1), Portuguese (A1), Spanish (A1), Arabic (A1)</li>
+        </ul>
+    </section>
+
     <footer class="footer">
         Last updated in December 2024
     </footer>
