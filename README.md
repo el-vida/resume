@@ -3,7 +3,7 @@
 A modern, responsive online CV/portfolio website built with HTML, CSS, and JavaScript.
 
 ## Live Demo
-Visit the live website at: [https://el-vida.github.io/online-cv/](https://el-vida.github.io/online-cv/)
+Visit the live website at: [https://el-vida.github.io/resume/](https://el-vida.github.io/resume/)
 
 ## Features
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
