@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+  <defs>
+    <style>
+      .text { font-family: Arial, sans-serif; font-weight: bold; }
+      .tu { fill: #c41e3a; font-size: 16px; }
+      .berlin { fill: #c41e3a; font-size: 12px; }
+      .technical { fill: #2d2d2d; font-size: 8px; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect fill="white" width="120" height="40" rx="2" stroke="#c41e3a" stroke-width="1"/>
+  
+  <!-- TU -->
+  <text class="text tu" x="8" y="20">TU</text>
+  
+  <!-- BERLIN -->
+  <text class="text berlin" x="35" y="18">BERLIN</text>
+  
+  <!-- Technical University -->
+  <text class="text technical" x="8" y="32">TECHNICAL UNIVERSITY</text>
+  
+  <!-- Geometric element -->
+  <rect fill="#c41e3a" x="90" y="12" width="16" height="16" rx="2"/>
+  <rect fill="white" x="94" y="16" width="8" height="8"/>
+</svg>

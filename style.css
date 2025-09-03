@@ -302,6 +302,11 @@ section h2::after {
     letter-spacing: -0.3px;
 }
 
+.entry h3 .university-logo {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
 .entry .meta {
     color: var(--text-light);
     font-size: 1rem;
@@ -374,6 +379,40 @@ a:hover {
     opacity: 0.9;
 }
 
+/* University Logo Styles */
+.university-logo {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    background: white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid var(--border-color);
+}
+
+.university-logo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    border-color: var(--primary-color);
+}
+
+.university-logo svg {
+    display: block;
+    width: 120px;
+    height: 40px;
+}
+
+.entry h3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
@@ -416,6 +455,21 @@ a:hover {
     
     .container {
         padding: 0 15px;
+    }
+    
+    .entry h3 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .university-logo {
+        margin-right: 0;
+    }
+    
+    .university-logo svg {
+        width: 100px;
+        height: 33px;
     }
 }
 
