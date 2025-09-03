@@ -1,285 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elija Maria Vida - Computer Engineering student with expertise in machine learning and computer architecture. View my CV, education, experience, and projects.">
+    <meta name="keywords" content="Elija Vida, Computer Engineering, Machine Learning, RWTH Aachen, CV, Resume, Portfolio">
     <meta name="author" content="Elija Maria Vida">
-    <title>Menu Bar Example</title>
-    <style>
-        /* Style the menu bar */
-        nav {
-            background-color: #333;
-            overflow: hidden;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        /* Style the links inside the navigation bar */
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 14px 20px;
-            display: block;
-            text-align: center;
-        }
-
-        /* Change link color on hover */
-        nav a:hover {
-            background-color: #575757;
-            color: white;
-        }
-
-        /* Add some content styling */
-        section {
-            padding: 20px;
-            margin: 20px;
-            border: 1px solid #ddd;
-            background-color: #f9f9f9;
-        }
-    </style>
-    <title>Elija Maria Vida's CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.5;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #004f90;
-            color: white;
-        }
-        header h1 {
-            margin: 10px 0;
-            font-size: 24px;
-        }
-        header p {
-            margin: 5px 0;
-        }
-        header a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        header a:hover {
-            text-decoration: underline;
-        }
-        section {
-            margin: 20px;
-        }
-        section h2 {
-            border-bottom: 2px solid #004f90;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-            color: #004f90;
-        }
-        .entry {
-            margin-bottom: 20px;
-        }
-        .entry h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #004f90;
-        }
-        .entry .meta {
-            font-size: 14px;
-            color: gray;
-            margin-bottom: 10px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        ul li {
-            margin-bottom: 5px;
-        }
-        .footer {
-            text-align: center;
-            font-size: 12px;
-            color: gray;
-            margin-top: 20px;
-        }
-    </style>
+    
+    <!-- Open Graph meta tags for social sharing -->
+    <meta property="og:title" content="Elija Maria Vida - Computer Engineering CV">
+    <meta property="og:description" content="Passionate Computer Engineering student with expertise in machine learning and computer architecture.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://el-vida.github.io/online-cv/">
+    <meta property="og:image" content="https://el-vida.github.io/online-cv/assets/profile.jpeg">
+    
+    <title>Elija Maria Vida - Computer Engineering CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/profile.jpeg">
 </head>
 <body>
     <header>
-        <div class="profile-picture">
-            <img src="assets/profile.jpeg" alt="Profile Picture" width="350">
+        <div class="container">
+            <div class="profile-picture">
+                <img src="assets/profile.jpeg" alt="Elija Maria Vida - Profile Picture" width="200" height="200">
+            </div>
+            <h1>Elija Maria Vida</h1>
+            <p>
+                <a href="mailto:elija.vida@rwth-aachen.de" aria-label="Email Elija Maria Vida">E-Mail</a>
+                <a href="https://linkedin.com/in/elija-vida" target="_blank" rel="noopener" aria-label="LinkedIn Profile">LinkedIn</a>
+                <a href="https://github.com/el-vida" target="_blank" rel="noopener" aria-label="GitHub Profile">GitHub</a>
+            </p>
         </div>
-        <h1>Elija Maria Vida</h1>
-        <p>
-            <!-- <span>Rotbuchstrasse 77, 8037 Zurich</span> | --> 
-            <a href="mailto:elija.vida@rwth-aachen.de" target = "_blank">E-Mail</a> |
-            <!--<a href="tel:+33-767-610-777">+33 7 67 61 07 77</a> | -->
-            <a href="https://linkedin.com/in/elija-vida" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/el-vida" target="_blank">GitHub</a>
-        </p>
     </header>
-    <!-- Menu Bar -->
+
     <nav>
-        <a href="index.html">Home</a>
-        <a href="page1.html">Education</a>
-        <a href="page2.html">Experience</a>
-        <a href="page3.html">Projects and Publications</a>
+        <div class="container">
+            <a href="index.html" class="active" aria-current="page">Home</a>
+            <a href="page1.html">Education</a>
+            <a href="page2.html">Experience</a>
+            <a href="page3.html">Projects & Publications</a>
+        </div>
     </nav>
 
-    <!-- Summary -->
-    <section>
-        <h2>Introduction</h2>
-        <div>
-            Passionate Computer Engineering student with a strong background in machine learning and computer architecture. 
-            I am seeking a challenging internship to apply my skills in developing innovative solutions for real-world problems.
-        </div>
-    </section>
+    <main>
+        <div class="container">
+            <section>
+                <h2>Introduction</h2>
+                <div>
+                    <p>Passionate Computer Engineering student with a strong background in machine learning and computer architecture. 
+                    I am seeking challenging opportunities to apply my skills in developing innovative solutions for real-world problems.</p>
+                    
+                    <p>Currently pursuing my Master's degree at RWTH Aachen University with a focus on cutting-edge technologies 
+                    including neural networks, FPGA optimization, and advanced computing architectures.</p>
+                </div>
+            </section>
 
-    <!-- Education -->
-    <!-- <section>
-        <h2>Education</h2>
-        <div class="entry">
-            <h3>RWTH Aachen University</h3>
-            <p class="meta">MSc in Computer Engineering | Apr 2020 – Dec 2024</p>
-            <ul>
-                <li>Current Grade: 1.1 (German Grading System)</li>
-                <li>Coursework: Computer Architecture, Machine Learning, Computational Theory, Compiler Engineering</li>
-            </ul>
-        </div>
-        <div class="entry">
-            <h3>University of California, Berkeley</h3>
-            <p class="meta">Semester Abroad | Jan 2022 – June 2022</p>
-            <ul>
-                <li>GPA: A- (US Grading System)</li>
-                <li>Coursework: Artificial Intelligence, Nonlinear and Convex Optimization, Computer Graphics</li>
-            </ul>
-        </div>
-        <div class="entry">
-            <h3>RWTH Aachen University</h3>
-            <p class="meta">BSc in Electrical and Computer Engineering | Oct 2015 – Apr 2020</p>
-            <ul>
-                <li>Grade: 2.4 (German Grading System, top 25%)</li>
-                <li>Coursework: System Theory, Mathematics, Computer Architecture, Circuit Design</li>
-                <li>
-                    <a href="https://www.rwth-aachen.de/go/id/bwyx/lidx/1" target="_blank">TIME Double-Degree Program</a>: Study Abroad at École Centrale de Lille (2017 – 2019)
-                </li>
-            </ul>
-        </div>
-        <div class="entry">
-            <h3>Technical University of Berlin</h3>
-            <p class="meta">MINTgrün pre-study orientation program | Oct 2014 – Oct 2015</p>
-            <ul>
-                <li>Grade: 1.1 (German Grading System)</li>
-            </ul>
-        </div>
-    </section> -->
+            <section>
+                <h2>Quick Overview</h2>
+                <div class="entry">
+                    <h3>Current Status</h3>
+                    <p class="meta">MSc Computer Engineering Student</p>
+                    <ul>
+                        <li><strong>University:</strong> RWTH Aachen University</li>
+                        <li><strong>Expected Graduation:</strong> December 2024</li>
+                        <li><strong>Current Grade:</strong> 1.1 (German Grading System)</li>
+                        <li><strong>Specialization:</strong> Machine Learning & Computer Architecture</li>
+                    </ul>
+                </div>
+                
+                <div class="entry">
+                    <h3>Core Competencies</h3>
+                    <ul>
+                        <li><strong>Programming:</strong> Python, C++, C, Java, MATLAB, VHDL, Verilog</li>
+                        <li><strong>ML/AI Tools:</strong> PyTorch, JAX, TensorFlow, NumPy, Pandas, Scikit-Learn</li>
+                        <li><strong>Development:</strong> Git, Docker, Linux, HPC Clusters</li>
+                        <li><strong>Languages:</strong> German (Native), English (C2), French (C1), Russian (A1)</li>
+                    </ul>
+                </div>
+            </section>
 
-    <!-- Experience in Industry -->
-    <!-- <section>
-        <h2>Experience in Industry</h2>
-        <div class="entry">
-            <h3>Porsche AG</h3>
-            <p class="meta">Control Technology Intern | Stuttgart, Germany | Aug 2021 – Jan 2022</p>
-            <ul>
-                <li>Developed and maintained a business intelligence tool for automated and personalized report generation.</li>
-                <li>Collaborated on the “Taycan Task Force” to enhance EV body production efficiency.</li>
-                <li>Proposed AI/ML use cases, including a solution for soldering stations to mitigate costly interruptions.</li>
-            </ul>
-        </div>
-        <div class="entry">
-            <h3>E.ON Energy Research Center</h3>
-            <p class="meta">Student Research Assistant | Aachen, Germany | June 2020 – July 2021</p>
-            <ul>
-                <li>Literature research on automation of complex power systems and predictive control algorithms.</li>
-                <li>Supported international research project 'REDEFINE' with MIT and the University of Washington.</li>
-                <li>Developed a MATLAB/Simulink simulation for frequency control in microgrids.</li>
-            </ul>
-        </div>
-        <div class="entry">
-            <h3>National Telecom (formerly CAT Telecom) PLC</h3>
-            <p class="meta">Machine Learning Engineering Intern | Bangkok, Thailand | Aug 2019 – Nov 2019</p>
-            <ul>
-                <li>Created and preprocessed datasets using bounding boxes for video footage.</li>
-                <li>Trained ML models for license plate verification and object detection using AlexNet in C++.</li>
-            </ul>
-        </div>
-    </section> -->
-    
-    <!-- Experience in Academia -->
-    <!-- <section>
-        <h2>Experience in Academia</h2>
-        <div class="entry">
-            <h3>Chair of Integrated Digital Systems and Circuit Design, RWTH Aachen</h3>
-            <p class="meta">Student Assistant in Software Engineering | Aachen, Germany | Dec 2023 – June 2024</p>
-            <ul>
-                <li>Developed and tested an improved version of the neuroAIx framework's probing algorithm for FPGA cluster size detection.</li>
-                <li>Optimized run-time using parallelization techniques, achieving significant performance gains.</li>
-            </ul>
-        </div>
-        <div class="entry">
-            <h3>Advanced Interactive Technologies (AIT) Lab, ETH Zurich</h3>
-            <p class="meta">Student Research Assistant | Zurich, Switzerland | June 2020 – July 2021</p>
-            <ul>
-                <li>Analyzed keystroke dynamics data from the world's largest typing study to improve decision thresholds for classification algorithms.</li>
-                <li>Implemented Kernel Density Estimations and Gaussian Mixture Models (GMMs) for more precise classifications.</li>
-            </ul>
-        </div>
-    </section> -->
+            <section>
+                <h2>Highlights</h2>
+                <div class="entry">
+                    <h3>Recent Achievements</h3>
+                    <ul>
+                        <li><strong>Master Thesis:</strong> Developed novel spiking neural network architecture (DPPRAM)</li>
+                        <li><strong>Research:</strong> Contributed to IEEE and ACM publications</li>
+                        <li><strong>Industry Experience:</strong> Internship at Porsche AG working on AI/ML solutions</li>
+                        <li><strong>International:</strong> Study abroad at UC Berkeley and École Centrale de Lille</li>
+                        <li><strong>Innovation:</strong> FPGA optimization and neural network acceleration</li>
+                    </ul>
+                </div>
+            </section>
 
-    <!-- Projects -->
-    <!-- <section>
-        <h2>Projects</h2>
-        <div class="entry">
-            <h3>DPPRAM (Master Thesis)</h3>
-            <ul>
-                <li>Developed a novel spiking neural network (SNN) architecture using active dendritic neurons for time-series classification.</li>
-                <li>Benchmarked on Spiking Heidelberg Digits (SHD) and MIT-BIH Heartbeat Arrhythmia datasets.</li>
-                <li>Tools: Python, PyTorch, JAX, Wandb</li>
-                <a href="https://github.com/EIS-Hub/DenRAM" target="_blank">Repository of the project</a>
-            </ul>
+            <section>
+                <h2>Get In Touch</h2>
+                <div>
+                    <p>I'm always interested in discussing new opportunities, research collaborations, or innovative projects. 
+                    Feel free to reach out through any of the channels below:</p>
+                    
+                    <div class="entry">
+                        <ul>
+                            <li><strong>Email:</strong> <a href="mailto:elija.vida@rwth-aachen.de">elija.vida@rwth-aachen.de</a></li>
+                            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/elija-vida" target="_blank" rel="noopener">linkedin.com/in/elija-vida</a></li>
+                            <li><strong>GitHub:</strong> <a href="https://github.com/el-vida" target="_blank" rel="noopener">github.com/el-vida</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="entry">
-            <h3>NoisyNeuroSIM</h3>
-            <ul>
-                <li>Investigated noise effects on crossbar-based analog Compute-In-Memory (CIM) architectures using NeuroSIM on HPC clusters.</li>
-                <li>Tools: C++, Python</li>
-                <a href="https://github.com/el-vida/NoisyNeuroSIM" target="_blank">Repository of the project</a>
-            </ul>
-        </div>
-        <div class="entry">
-            <h3>CNN for Person Detection</h3>
-            <ul>
-                <li>Designed a neural network using Keras and Tensorflow 2.0 in order to detect people in images from the RAISE dataset.</li>
-                <li>Tools: Python, Keras, TensorFlow</li>
-                <a href="https://github.com/el-vida/NN_PersonDetection" target="_blank">Repository of the project</a>
-        </div>
-    </section> -->
+    </main>
 
-    <!-- Publication Contributions -->
-    <!-- <section>
-        <h2>Publication Contributions</h2>
-        <div class="entry">
-            <h3>Centralized Model Predictive Control for Transient Frequency Control in Islanded Inverter-Based Microgrids</h3>
-            <a 
-            href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9827606&casa_token=15YqaK3Z0CoAAAAA:U3k0afAjA6Go8saK3yPNFLPjdXmCfZ-eb98aiqDglP1vpLb9ZFgXJOt2D69jMDTlhj-p-Lxvrw?tag=1" 
-            target="_blank"
-            >IEEE Transactions on Power Systems, May 2023</a>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Elija Maria Vida. All rights reserved. | Last updated: September 2025</p>
         </div>
-        <div class="entry">
-            <h3>Typing Behavior is About More than Speed: Users' Strategies for Choosing Word Suggestions Despite Slower Typing Rates</h3>
-            <a href="https://dl.acm.org/doi/pdf/10.1145/3604276">
-                Proc. ACM Hum.-Comput. Interact., Sept 2023</a>
-        </div>
-    </section> -->
+    </footer>
 
-    <!-- Certifications -->
-    <!-- <section>
-        <h2>Certifications and Skills</h2>
-        <ul>
-            <li><b>Programming Languages:</b> Python, C++, C, Java, MATLAB, VHDL, Verilog</li>
-            <li><b>Tools:</b> PyTorch, JAX, NumPy, Pandas, Scikit-Learn, Git, TensorFlow, Docker</li>
-            <li><b>Languages:</b> German (Native), English (C2), French (C1), Russian (A1), Portuguese (A1), Spanish (A1), Arabic (A1)</li>
-        </ul>
-    </section> -->
+    <script>
+        // Simple script to highlight current page in navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentLocation = location.pathname.split('/').pop() || 'index.html';
+            const navLinks = document.querySelectorAll('nav a');
+            
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentLocation) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                } else {
+                    link.classList.remove('active');
+                    link.removeAttribute('aria-current');
+                }
+            });
+
+            // Add smooth scrolling for anchor links
+            const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+            smoothScrollLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>

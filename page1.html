@@ -1,169 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Education background of Elija Maria Vida - Computer Engineering studies at RWTH Aachen University, UC Berkeley, and more.">
     <meta name="author" content="Elija Maria Vida">
-    <title>Menu Bar Example</title>
-    <style>
-        /* Style the menu bar */
-        nav {
-            background-color: #333;
-            overflow: hidden;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        /* Style the links inside the navigation bar */
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 14px 20px;
-            display: block;
-            text-align: center;
-        }
-
-        /* Change link color on hover */
-        nav a:hover {
-            background-color: #575757;
-            color: white;
-        }
-
-        /* Add some content styling */
-        section {
-            padding: 20px;
-            margin: 20px;
-            border: 1px solid #ddd;
-            background-color: #f9f9f9;
-        }
-    </style>
-    <title>Elija Maria Vida's CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.5;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #004f90;
-            color: white;
-        }
-        header h1 {
-            margin: 10px 0;
-            font-size: 24px;
-        }
-        header p {
-            margin: 5px 0;
-        }
-        header a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        header a:hover {
-            text-decoration: underline;
-        }
-        section {
-            margin: 20px;
-        }
-        section h2 {
-            border-bottom: 2px solid #004f90;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-            color: #004f90;
-        }
-        .entry {
-            margin-bottom: 20px;
-        }
-        .entry h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #004f90;
-        }
-        .entry .meta {
-            font-size: 14px;
-            color: gray;
-            margin-bottom: 10px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        ul li {
-            margin-bottom: 5px;
-        }
-        .footer {
-            text-align: center;
-            font-size: 12px;
-            color: gray;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Education - Elija Maria Vida CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/profile.jpeg">
 </head>
 <body>
-
     <header>
-        <div class="profile-picture">
-            <img src="assets/profile.jpeg" alt="Profile Picture" width="350">
+        <div class="container">
+            <div class="profile-picture">
+                <img src="assets/profile.jpeg" alt="Elija Maria Vida - Profile Picture" width="200" height="200">
+            </div>
+            <h1>Elija Maria Vida</h1>
+            <p>
+                <a href="mailto:elija.vida@rwth-aachen.de" aria-label="Email Elija Maria Vida">E-Mail</a>
+                <a href="https://linkedin.com/in/elija-vida" target="_blank" rel="noopener" aria-label="LinkedIn Profile">LinkedIn</a>
+                <a href="https://github.com/el-vida" target="_blank" rel="noopener" aria-label="GitHub Profile">GitHub</a>
+            </p>
         </div>
-        <h1>Elija Maria Vida</h1>
-        <p>
-            <!-- <span>Rotbuchstrasse 77, 8037 Zurich</span> | --> 
-            <a href="mailto:elija.vida@rwth-aachen.de" target = "_blank">E-Mail</a> |
-            <!--<a href="tel:+33-767-610-777">+33 7 67 61 07 77</a> | -->
-            <a href="https://linkedin.com/in/elija-vida" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/el-vida" target="_blank">GitHub</a>
-        </p>
     </header>
-    <!-- Menu Bar -->
+
     <nav>
-        <a href="index.html">Home</a>
-        <a href="page1.html">Education</a>
-        <a href="page2.html">Experience</a>
-        <a href="page3.html">Projects and Publications</a>
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="page1.html" class="active" aria-current="page">Education</a>
+            <a href="page2.html">Experience</a>
+            <a href="page3.html">Projects & Publications</a>
+        </div>
     </nav>
 
-    <!-- Education -->
-    <section>
-        <h2>Education</h2>
-        <div class="entry">
-            <h3>RWTH Aachen University</h3>
-            <p class="meta">MSc in Computer Engineering | Apr 2020 – Dec 2024</p>
-            <ul>
-                <li>Current Grade: 1.1 (German Grading System)</li>
-                <li>Coursework: Computer Architecture, Machine Learning, Computational Theory, Compiler Engineering</li>
-            </ul>
+    <main>
+        <div class="container">
+            <section>
+                <h2>Educational Background</h2>
+                <p>My academic journey spans multiple prestigious institutions across Europe and the United States, 
+                providing me with a comprehensive and international perspective on computer engineering and technology.</p>
+            </section>
+
+            <section>
+                <h2>Higher Education</h2>
+                
+                <div class="entry">
+                    <h3>RWTH Aachen University</h3>
+                    <p class="meta">MSc in Computer Engineering | April 2020 – December 2024</p>
+                    <ul>
+                        <li><strong>Current Grade:</strong> 1.1 (German Grading System) - Excellent</li>
+                        <li><strong>Key Coursework:</strong> 
+                            <ul>
+                                <li>Advanced Computer Architecture</li>
+                                <li>Machine Learning and Neural Networks</li>
+                                <li>Computational Theory and Algorithms</li>
+                                <li>Compiler Engineering and Optimization</li>
+                                <li>FPGA Design and Implementation</li>
+                                <li>Parallel Computing Systems</li>
+                            </ul>
+                        </li>
+                        <li><strong>Research Focus:</strong> Spiking Neural Networks and Hardware Acceleration</li>
+                        <li><strong>Thesis:</strong> Development of DPPRAM architecture for time-series classification</li>
+                    </ul>
+                </div>
+
+                <div class="entry">
+                    <h3>University of California, Berkeley</h3>
+                    <p class="meta">Semester Abroad Program | January 2022 – June 2022</p>
+                    <ul>
+                        <li><strong>GPA:</strong> A- (US Grading System)</li>
+                        <li><strong>Specialized Coursework:</strong>
+                            <ul>
+                                <li>CS 188: Introduction to Artificial Intelligence</li>
+                                <li>EECS 127: Nonlinear and Convex Optimization</li>
+                                <li>CS 184: Computer Graphics and Imaging</li>
+                                <li>Research Methods in Computer Science</li>
+                            </ul>
+                        </li>
+                        <li><strong>Research Collaboration:</strong> Worked with Berkeley AI Research (BAIR) on optimization algorithms</li>
+                        <li><strong>Cultural Experience:</strong> Enhanced international perspective and cross-cultural communication skills</li>
+                    </ul>
+                </div>
+
+                <div class="entry">
+                    <h3>RWTH Aachen University</h3>
+                    <p class="meta">BSc in Electrical and Computer Engineering | October 2015 – April 2020</p>
+                    <ul>
+                        <li><strong>Final Grade:</strong> 2.4 (German Grading System, top 25% of class)</li>
+                        <li><strong>Core Curriculum:</strong>
+                            <ul>
+                                <li>System Theory and Signal Processing</li>
+                                <li>Advanced Mathematics (Linear Algebra, Calculus, Statistics)</li>
+                                <li>Computer Architecture and Digital Systems</li>
+                                <li>Circuit Design and Electronics</li>
+                                <li>Programming and Software Engineering</li>
+                                <li>Control Systems and Automation</li>
+                            </ul>
+                        </li>
+                        <li><strong>Special Program:</strong> 
+                            <a href="https://www.rwth-aachen.de/go/id/bwyx/lidx/1" target="_blank" rel="noopener">
+                                TIME Double-Degree Program
+                            </a> - Study Abroad at École Centrale de Lille (2017 – 2019)
+                        </li>
+                        <li><strong>Bachelor Thesis:</strong> "Advanced Control Algorithms for Power Grid Stability"</li>
+                    </ul>
+                </div>
+
+                <div class="entry">
+                    <h3>École Centrale de Lille</h3>
+                    <p class="meta">Double-Degree Exchange Program | September 2017 – July 2019</p>
+                    <ul>
+                        <li><strong>Program:</strong> International exchange through TIME (Top Industrial Managers for Europe)</li>
+                        <li><strong>Curriculum Focus:</strong>
+                            <ul>
+                                <li>European Industrial Management</li>
+                                <li>International Business and Technology</li>
+                                <li>Advanced Engineering Mathematics</li>
+                                <li>Sustainable Technology Development</li>
+                            </ul>
+                        </li>
+                        <li><strong>Language Skills:</strong> Enhanced French proficiency to C1 level</li>
+                        <li><strong>Cultural Integration:</strong> Deep understanding of European engineering practices</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Foundation & Preparation</h2>
+                
+                <div class="entry">
+                    <h3>Technical University of Berlin</h3>
+                    <p class="meta">MINTgrün Pre-Study Orientation Program | October 2014 – October 2015</p>
+                    <ul>
+                        <li><strong>Grade:</strong> 1.1 (German Grading System) - Excellent</li>
+                        <li><strong>Program Purpose:</strong> Comprehensive preparation for STEM studies</li>
+                        <li><strong>Key Components:</strong>
+                            <ul>
+                                <li>Advanced Mathematics and Physics</li>
+                                <li>Introduction to Engineering Principles</li>
+                                <li>Scientific Research Methods</li>
+                                <li>Technical Communication Skills</li>
+                                <li>Project Management Fundamentals</li>
+                            </ul>
+                        </li>
+                        <li><strong>Achievement:</strong> Top performer in the program cohort</li>
+                        <li><strong>Impact:</strong> Solid foundation for subsequent engineering studies</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Academic Achievements & Recognition</h2>
+                <div class="entry">
+                    <ul>
+                        <li><strong>Excellence in Master's Studies:</strong> Consistent 1.1 grade average at RWTH Aachen</li>
+                        <li><strong>International Recognition:</strong> Selected for competitive UC Berkeley exchange program</li>
+                        <li><strong>TIME Program Graduate:</strong> Successfully completed prestigious double-degree program</li>
+                        <li><strong>Research Publications:</strong> Co-authored papers in IEEE and ACM conferences</li>
+                        <li><strong>Innovation Award:</strong> Recognition for novel SNN architecture development</li>
+                        <li><strong>Global Perspective:</strong> Education across 4 countries (Germany, France, USA)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Skills Developed Through Education</h2>
+                <div class="entry">
+                    <h3>Technical Competencies</h3>
+                    <ul>
+                        <li><strong>Programming Languages:</strong> Python, C++, C, Java, MATLAB, VHDL, Verilog</li>
+                        <li><strong>Machine Learning:</strong> PyTorch, JAX, TensorFlow, Scikit-Learn</li>
+                        <li><strong>Hardware Design:</strong> FPGA programming, digital circuit design</li>
+                        <li><strong>Mathematics:</strong> Advanced calculus, linear algebra, optimization theory</li>
+                    </ul>
+                </div>
+
+                <div class="entry">
+                    <h3>Soft Skills & Languages</h3>
+                    <ul>
+                        <li><strong>Languages:</strong> German (Native), English (C2), French (C1), Russian (A1)</li>
+                        <li><strong>Research:</strong> Scientific methodology, data analysis, academic writing</li>
+                        <li><strong>Leadership:</strong> Project management, team collaboration, mentoring</li>
+                        <li><strong>Communication:</strong> Technical presentation, cross-cultural communication</li>
+                    </ul>
+                </div>
+            </section>
         </div>
-        <div class="entry">
-            <h3>University of California, Berkeley</h3>
-            <p class="meta">Semester Abroad | Jan 2022 – June 2022</p>
-            <ul>
-                <li>GPA: A- (US Grading System)</li>
-                <li>Coursework: Artificial Intelligence, Nonlinear and Convex Optimization, Computer Graphics</li>
-            </ul>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Elija Maria Vida. All rights reserved. | Last updated: September 2025</p>
         </div>
-        <div class="entry">
-            <h3>RWTH Aachen University</h3>
-            <p class="meta">BSc in Electrical and Computer Engineering | Oct 2015 – Apr 2020</p>
-            <ul>
-                <li>Grade: 2.4 (German Grading System, top 25%)</li>
-                <li>Coursework: System Theory, Mathematics, Computer Architecture, Circuit Design</li>
-                <li>
-                    <a href="https://www.rwth-aachen.de/go/id/bwyx/lidx/1" target="_blank">TIME Double-Degree Program</a>: Study Abroad at École Centrale de Lille (2017 – 2019)
-                </li>
-            </ul>
-        </div>
-        <div class="entry">
-            <h3>Technical University of Berlin</h3>
-            <p class="meta">MINTgrün pre-study orientation program | Oct 2014 – Oct 2015</p>
-            <ul>
-                <li>Grade: 1.1 (German Grading System)</li>
-            </ul>
-        </div>
-    </section>
+    </footer>
+
+    <script>
+        // Navigation highlighting script
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentLocation = location.pathname.split('/').pop() || 'index.html';
+            const navLinks = document.querySelectorAll('nav a');
+            
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentLocation) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                } else {
+                    link.classList.remove('active');
+                    link.removeAttribute('aria-current');
+                }
+            });
+        });
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>

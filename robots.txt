@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://el-vida.github.io/online-cv/sitemap.xml
+
+# Allow search engines to index all pages
+Disallow:
+
+# Crawl-delay (optional)
+Crawl-delay: 1

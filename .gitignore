@@ -1,0 +1,119 @@
+# ===== GitHub Pages & Jekyll =====
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# ===== Operating System Files =====
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ===== Editors & IDEs =====
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# ===== Node.js (if using build tools) =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== Temporary Files =====
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ===== Backup Files =====
+*.bak
+*.backup
+*_backup.*
+*_old.*
+
+# ===== Environment Variables =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===== Build Outputs =====
+dist/
+build/
+out/
+
+# ===== Cache =====
+.cache/
+*.cache
+
+# ===== Archives =====
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===== Images (keep source, ignore processed) =====
+# Uncomment if you process images
+# assets/processed/
+# assets/optimized/
+
+# ===== Analytics & Tracking =====
+# Uncomment if you add analytics files you don't want to track
+# analytics/
+# tracking/
+
+# ===== Custom Files to Ignore =====
+# Add any personal files you don't want to commit
+personal_notes.txt
+todo.md
+drafts/
+
+# Keep this file itself
+!.gitignore
