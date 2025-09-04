@@ -418,10 +418,12 @@ a:hover {
     border-color: var(--primary-color);
 }
 
-.university-logo svg {
+.university-logo svg,
+.university-logo img {
     display: block;
     width: 160px;
     height: 55px;
+    object-fit: contain;
 }
 
 .entry-content {
@@ -511,7 +513,8 @@ a:hover {
         padding: 12px;
     }
     
-    .university-logo svg {
+    .university-logo svg,
+    .university-logo img {
         width: 140px;
         height: 48px;
     }
